@@ -1,0 +1,66 @@
+/* Header section */
+
+#overview-panel {
+  height: 480px;
+}
+
+#code-kinght {
+  position: relative;
+  width: 25rem;
+  margin: 2rem;
+  border-radius: 2px;
+  box-shadow: 15px 15px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+#reason {
+  margin: 140px 2rem 140px 0;
+  padding: min(1em, 8%);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+#reason h1 {
+  margin: 1rem;
+}
+
+/* Overview Description */
+
+#overview {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+  line-height: 35px;
+}
+
+
+#goal {
+  padding: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+  width: 65rem;
+  text-align: left;
+}
+
+#goal h1 {
+  padding-top: 1.5rem;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bolder;
+}
+
+#goal h2 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+#center {     /* centers the red highlighted text in overview */
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+
+

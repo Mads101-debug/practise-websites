@@ -1,0 +1,108 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red !important; */
+}
+
+:root {
+  --primary-color: rgb(42, 54, 70);
+  --secondary-color: rgb(82, 106, 139);
+  --nav-color: rgba(41, 40, 40, 0.849);
+  --font-color: rgb(0, 0, 0);
+  --article-font-size: 1.4rem;
+  --page-color: rgb(224, 228, 231);
+  --green-text: rgb(17, 206, 17);
+  --blue-text: rgb(3, 21, 187);
+  --red-highlight: rgba(255, 0, 0, 0.425);
+  --yellow-highlight: rgba(255, 238, 0, 0.349);
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.3em;
+  background-color: var(--primary-color);
+}
+
+.panel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: var(--secondary-color);
+  font-size: var(--article-font-size);
+  border-bottom: solid 5px black;
+  border-top: solid 5px black;
+}
+
+.text-box1 {
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-radius: 2px;
+  background-color: var(--page-color);
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.text-box2 {
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-radius: 2px;
+  background-color: var(--page-color);
+  text-align: center;
+  font-size: 1.3rem;
+
+}
+
+
+/* nav section */
+.nav-container {
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  z-index: 100;
+  background-color: var(--nav-color);
+  border-bottom: 5px solid black;
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin: 1rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 5px white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in;
+}
+
+.main-nav a:hover {
+  text-shadow: 3px 3px 15px white;
+}
+
+#date {
+  position: relative;
+  text-shadow: 1px 1px 2px white;
+}
+
+
+/* FOOTER SECTION */
+footer {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  background-color: var(--nav-color);
+  border-top: solid 5px black;
+  margin-top: 3rem;
+}
